@@ -16,6 +16,7 @@ def index():
 @socketio.on('update data')
 def handle_event(msg):
     result = str(datetime.now())
+    print(1)
     socketio.emit('server message', result)
 
 
