@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- import socketio -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"
+            integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+    <!-- import style code -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style/main.css') }}">
+
+</head>
+<body>
+
+<ul id="my_list">
+
+</ul>
+
+<!-- import js code -->
+<script src="{{url_for('static', filename='index.js')}}"></script>
+
+</body>
+</html>
